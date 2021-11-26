@@ -12,7 +12,7 @@ The repo strucrture is as follows:
 
 Please note that the demos are all compatible with only **Windows**. To apply the hook, you need to have **Frida** installed. You can install frida using ```pip install frida-tools```
   
-You can attach the CreateThread hook to a process using the following command:
+You can attach the CreateThread hook to a process using the following command:  
 ```frida {processname.exe} -l .\hook.js```
   
 ## Enjoy!
