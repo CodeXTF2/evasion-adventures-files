@@ -28,7 +28,7 @@ void exec(BYTE *buf, size_t size) {
 
     //This is where the Frida hook on CreateThread would be triggered
     CreateThread(0,0,(LPTHREAD_START_ROUTINE)address,0,0,0);
-	printf("\n[+] Shellcode address: %x",address);
+    printf("%-20s : 0x%-016p\n", "payload address", address);
     getchar();
 }
 
