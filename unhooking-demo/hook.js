@@ -4,5 +4,7 @@ Interceptor.attach(f,
 {
   onEnter(args) {
     console.log('CreateThread Called!\n');
+console.log("========[ Parsing arguments]===========");
+console.log("Shellcode address: " + args[2]);
   }
 });
