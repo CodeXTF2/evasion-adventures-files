@@ -3,7 +3,7 @@ This repo contains the slides and demo files from my "Evasion Adventures" talk o
   
 Note: the sleep protection demo used is from https://github.com/mgeeky/ShellcodeFluctuation
   
-The repo strucrture is as follows:
+The repo structure is as follows:
 - slides.pptx
 - /unhooking-demo
     - demo.cpp
@@ -27,7 +27,7 @@ Optionally, a precompiled binary is provided, already compiled in the directory,
 4. In the demo.exe window, enter 1 to remove hooks, or just press enter to run without unhooking anything.
 5. Regardless of option, calc.exe should be spawned.
 
-Observations
+### Observations
 
 When run without unhooking, Frida prints a message "CreateThread called!"
 When run with unhooking, there is no message printed in Frida.
