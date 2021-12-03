@@ -28,8 +28,8 @@ void exec(BYTE *buf, size_t size) {
 
     //This is where the Frida hook on CreateThread would be triggered
     CreateThread(0,0,(LPTHREAD_START_ROUTINE)address,0,0,0);
-
-    Sleep(2000);
+	printf("\n[+] Shellcode address: %x",address);
+    getchar();
 }
 
 
