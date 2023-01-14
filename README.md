@@ -1,7 +1,7 @@
 # Evasion Adventures
 This repo contains the slides and demo files from my "Evasion Adventures" talk on evading EDRs using modern offensive tradecraft.
   
-Note: the sleep protection demo used is from https://github.com/mgeeky/ShellcodeFluctuation
+Note: the sleep protection demo used is from https://github.com/mgeeky/ShellcodeFluctuation. This tool is a PoC of encrypting shellcode during beacon sleep. It is NOT operationally secure due to the patching of the kernel32!Sleep function in NTDLL. Instead, use a tool such as AceLdr or TitanLdr to apply sleep masking via an IAT hook in the beacon RDLL.
   
 The repo structure is as follows:
 - slides.pptx
